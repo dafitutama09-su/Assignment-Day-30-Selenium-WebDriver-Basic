@@ -10,7 +10,7 @@ Selain source code, repository ini juga memuat jawaban reflection sesuai instruk
 - **Tools:** IntelliJ IDEA, Java, Selenium WebDriver  
 - **Tujuan:** Membangun automation dasarnya Selenium untuk mempraktikkan locator, basic interactions, dan arsitektur WebDriver seperti pada materi PPT.  
 - **Isi project:**  
-  - Struktur Selenium  
+  - Struktur Selenium
   - Locator (ID, Name, XPath, CSS)  
   - Basic operations (click, sendKeys, getText)  
   - Simple selenium flow
