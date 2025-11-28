@@ -29,7 +29,7 @@ Karena semua aksi Selenium bergantung pada menemukan elemen yang benar di DOM, k
 ---
 
 ### **2. Pemahaman baru tentang bagaimana Selenium menirukan tindakan user**
-Dari tugas ini dan materi PPT, saya memahami bahwa Selenium bekerja dengan **menirukan user sungguhan**:
+Dari tugas ini dan materi kemarin, saya memahami bahwa Selenium bekerja dengan **menirukan user sungguhan**:
 - klik,
 - input text,
 - mengambil tulisan,
