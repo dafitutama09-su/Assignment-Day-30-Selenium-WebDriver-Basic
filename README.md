@@ -20,22 +20,14 @@ Selain source code, repository ini juga memuat jawaban reflection sesuai instruk
 ## ✨ Reflection Answers
 
 ### **1. Keputusan teknis paling berpengaruh**
-Bagi saya, keputusan teknis yang paling penting adalah memilih **locator yang stabil**.  
-Dari materi PPT tentang *Locator* dan *Best Practice Locator*, saya belajar bahwa penggunaan `id`, `name`, atau relative XPath membuat Selenium lebih konsisten menemukan elemen melalui DOM.
-
-Locator yang buruk membuat automation checkout mudah gagal atau flakey.  
-Karena semua aksi Selenium bergantung pada menemukan elemen yang benar di DOM, keputusan ini sangat menentukan keberhasilan keseluruhan script.
+Bagi saya, keputusan teknis yang paling penting adalah memilih locator yang stabil. Dari materi PPT tentang Locator dan Best Practice, saya belajar bahwa penggunaan id, name, atau relative XPath membuat Selenium lebih konsisten menemukan elemen di DOM.
+Kalau locator tidak tepat, automation checkout mudah gagal atau flakey, sehingga keputusan ini sangat menentukan keberhasilan keseluruhan script.
 
 ---
 
-### **2. Pemahaman baru tentang bagaimana Selenium menirukan tindakan user**
-Dari tugas ini dan materi kemarin, saya memahami bahwa Selenium bekerja dengan **menirukan user sungguhan**:
-- klik,
-- input text,
-- mengambil tulisan,
-- dan interaksi dasar lainnya melalui WebDriver.
-
-Selenium selalu berinteraksi melalui DOM sehingga membutuhkan **locator yang tepat** dan **sinkronisasi (wait)** agar elemen siap diakses.  
-Pemahaman ini membuat saya lebih siap menghadapi halaman dinamis, alur panjang seperti checkout, serta skenario kompleks di aplikasi nyata.
+### **2. Pemahaman baru tentang cara kerja Selenium**
+Dari mengerjakan tugas ini dan mempelajari materi kemarin, saya memahami bahwa Selenium bekerja dengan menirukan user sungguhan: klik, input, getText, dan interaksi lainnya melalui WebDriver.
+Selenium bergantung pada DOM dan membutuhkan sinkronisasi (wait) agar bisa berinteraksi dengan elemen yang benar.
+Pemahaman ini membuat saya lebih siap menghadapi aplikasi dengan alur panjang atau halaman dinamis.
 
 ---
